@@ -24,7 +24,6 @@ export function MovieCard(props: MovieCardProps) {
             <div>
               <Star /> {props.rating}
             </div>
-
             <div>
               <Clock /> {props.runtime}
             </div>
